@@ -3,6 +3,7 @@ import styles from "@/app/page.module.css"
 import {useState} from "react";
 import Dial from "@/components/images/Dial";
 import Confirmedball from "@/components/Confirmedball/Confirmedball";
+import Logo from "../images/Logo";
 
 export default function Cofre() {
     const [activeBalls, setActiveBalls] = useState([false, false, false]);
@@ -55,6 +56,7 @@ export default function Cofre() {
       <>
         <div className={styles.dialContainer}>
           <Dial className={styles.dial} />
+          <Logo className={styles.logo} />
           <Confirmedball isActive={activeBalls} qntBall={3} />
           <input
             className={styles.senha}
