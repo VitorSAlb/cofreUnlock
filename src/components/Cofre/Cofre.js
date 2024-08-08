@@ -37,7 +37,7 @@ export default function Cofre() {
         setCurrentAttempt(""); 
   
         if (currentStep + 1 === correctPasswords.length) {
-          window.location.href = "https://www.teste.com";
+          window.location.href = "https://www.qualitas.net.br";
           return;
         }
   
