@@ -5,8 +5,8 @@ export default function Dial() {
         <div>
             <Image
                 src="/dial.svg"
-                width={500}
-                height={500}
+                width={400}
+                height={400}
                 alt='dial'
             />
         </div>

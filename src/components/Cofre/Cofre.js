@@ -37,7 +37,7 @@ export default function Cofre() {
         setCurrentAttempt(""); 
   
         if (currentStep + 1 === correctPasswords.length) {
-          window.location.href = "https://www.qualitas.net.br";
+          window.location.href = "https://qualitas.net.br/cofre-vencedor-2g9nas-2g56nhs-1g48nas/";
           return;
         }
   
